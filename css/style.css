@@ -14,8 +14,9 @@
     margin-right: auto;
     display: block;
 }
-.tam{
-  width: 60;
+.tam li{
+  margin: 45em;
+  width: 100;
 }
 body {
 
@@ -24,7 +25,7 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 1.7;
-  color: gray;
+  color:black;
   background: #e8e8e8;
 
 }
@@ -108,7 +109,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-nav {
-  margin: 5em 0 0 0;
+
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -160,11 +161,12 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav ul li a {
   position: relative;
   font-size: 13px;
-  padding: 30px 12px;
+  padding: 30px 56px;
   color: rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  top: 20px;
 }
 .fh5co-nav ul li a:after {
   position: absolute;
@@ -477,7 +479,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-light-grey {
-  background: #fafafa;
+  background:   #f8c519
+;
 }
 
 #fh5co-about,
@@ -825,7 +828,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .blog-flex .blog-entry {
-  padding: 4em;
+
 }
 @media screen and (max-width: 768px) {
   .blog-flex .blog-entry {
@@ -834,12 +837,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .blog-flex .blog-entry h2 {
   display: block;
-  font-size: 13px;
+  font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
-  margin-bottom: 40px;
-  color: rgba(0, 0, 0, 0.4);
+  margin-left: 100px;
+  color: rgba(0, 0, 0,  0.black);
 }
 .blog-flex .blog-entry .blog-post {
   margin-bottom: 2.5em;
@@ -854,7 +857,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Oxygen", sans-serif;
   font-size: 16px;
   line-height: 30px;
-  margin-bottom: 10px;
+  margin: 70px;
 }
 .blog-flex .blog-entry .blog-post .desc span {
   font-size: 13px;
@@ -862,11 +865,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .blog-flex .blog-entry .blog-post .img {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -72px;
+  left: 10px;
   display: block;
-  width: 90px;
-  height: 90px;
+  width: 150px;
+  height: 150px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
