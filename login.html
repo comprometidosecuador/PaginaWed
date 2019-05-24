@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<link rel="shortcut icon" type="image/x-icon" href="images/indice.png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>LOGIN</title>
+    <style >
+      *{
+        box-sizing:border-box;
+      }
+      body{
+        background:url (pic.jpeg);
+        background-size:cover;
+      }
+      .wrap{
+        max-width:400px;
+        margin:auto;
+        margin-top:50px;
+        padding:20px;
+        font-family:sans-serif;
+        background:#fff;
+        border-radius:10px;
+      }
+      .wrap h3{
+        font-size:2em;
+        text-align:center;
+      }
+      button{
+        padding:10px;
+        width:49%;
+        box-sizing:border-box;
+        border:none;
+        font-size:1.3em;
+        border-radius:10px;
+      }
+      button a{
+        text-decoration:none;
+        color:#fff;
+      }
+      button:nth-child(1){
+        background:purple;
+      }
+      button:nth-child(2){
+        background:green;
+      }
+      button:haver{
+        background:rgba(0,0,0,0,6);
+      }
+      .fa{
+        fant-size:1.3em;
+        font-weight:bold;
+      }
+      from{
+        margin-top:30px;
+      }
+      input[type="text"] ,input[type=password] ,input[type=submit] {
+        width:100%;
+        padding:10px;
+        margin-bottom:15px;
+        font-size:17px;
+        border-radius:5px;
+        outline:none;
+        border:2px solid gray;
+      }
+      input[type=submit]{
+        background:red;
+        bordernone;
+        color:#fff;
+        font-size:20px;
+        font-weight:bold;
+        margin-top:20px;
+        padding:15px;
+      }
+      input[type=submit]:hover{
+         background:orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h3>Bienvenido, inicia sesión para continuar.</h3>
+      <div class="social-media">
+        <button ><a href="#"><i class="fa fa-facebook"></i>Facebook</a></button>
+        
+      </div>
+          <form >
+            <label >Usuario</label><br>
+            <input type="text">
+              <label >Contraseña</label><br>
+            <input type="password">
+            <input type="submit" name="" value="Ingresar">
+          </form>
+          <p> ¿No tienes una cuenta? Regístrate aquí<a href="#">Registrarse</a></p>
+
+      </div>
+
+
+  </body>
+</html>
